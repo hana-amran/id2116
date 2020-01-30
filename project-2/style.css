@@ -11,17 +11,17 @@ body {
         font-family: Helvetica Narrow, sans-serif;
         font-size: 23px;
         color: rgb(34, 34, 34);
-        text-align: center;
+        text-align: left;
         }
     ul {
         color: rgb(100, 100, 100);
-        text-align: center;
+        text-align: left;
         font-family:  Helvetica Narrow, sans-serif;
         font-size: 15px;
         }
     p {
     color: rgb(100, 100, 100);
-    text-align: center;
+    text-align: left;
     font-family: Helvetica Narrow, sans-serif;
     font-size: 15px;
     }
