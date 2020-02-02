@@ -68,3 +68,12 @@ color: #F5E9E7;
   height: 40%;
   background:lightcoral;
 }
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 25%;
+  padding: 5px;
+}
