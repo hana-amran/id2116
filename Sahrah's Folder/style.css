@@ -51,7 +51,10 @@ color: #F5E9E7;
 }
 
 .column:hover {
-  
+
+}
+.img {
+  width: 50%;
 }
 
 .column .top {
