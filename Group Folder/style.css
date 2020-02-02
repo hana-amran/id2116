@@ -19,3 +19,44 @@ body {
         margin-right: auto;
         width: 50%;
     }
+
+    navbar {
+        overflow: hidden;
+        background-color:hsl(36, 37%, 80%);
+      }
+      
+      .navbar a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 18px;
+        font-family: 'Times New Roman', Times, serif;
+      }
+      
+      .navbar a:hover {
+      background-color:hsl(36, 37%, 80%);
+      color: #333333;
+      }
+      
+      .navbar a.active {
+      background-color: hsl(36, 37%, 80%);
+      color: #F5E9E7;
+      }
+      
+      
+      .content {
+        padding: 20px;
+      }
+      
+      .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+      }
+      
+      .sticky + .content {
+        padding-top: 60px;
+      }
