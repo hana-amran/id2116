@@ -1,34 +1,62 @@
 body {
   background-color:pink;
 }
-
-h1 {
-  color: white;
-  text-align: left;
+ 
+navbar {
+  overflow: hidden;
+  background-color:pink;
 }
 
-p {
-  font-family: Helvetica, sans-serif;
-  font-size: 12px;
-}
-
-h2 {
-  color: white;
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
   text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
-p {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 6px;
+.navbar a:hover {
+background-color:pink;
+color: rgb(46, 46, 46);
 }
 
-h3 {
-  color: white;
-  text-align: left;
+.navbar a.active {
+background-color:pink;
+color: #F5E9E7;
 }
 
-p {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 12px;
+.content {
+   width: 90%;
+   height: 70%;
+   background:white;
+   position:fixed;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
 }
 
+.column {
+  margin: 10px;
+  width: 30%;
+  height: 100%;
+  background: burlywood;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.column .top {
+  width: 100%;
+  height: 60%;
+  background: lightskyblue;
+}
+
+.column .bot {
+  width: 100%;
+  height: 40%;
+  background:lightcoral;
+}
