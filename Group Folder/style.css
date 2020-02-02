@@ -20,6 +20,16 @@ body {
         width: 50%;
     }
 
+
+    header {
+      background-color: hsl(36, 37%, 80%);
+      padding: 30px;
+      text-align: center;
+      font-size: 15px;
+      color: white;
+    }
+
+
     navbar {
         overflow: hidden;
         background-color:hsl(36, 37%, 80%);
@@ -59,4 +69,20 @@ body {
       
       .sticky + .content {
         padding-top: 60px;
+      }
+
+
+      img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+
+      footer {
+        background-color: hsl(36, 37%, 80%);
+        padding-top: 20px;
+        text-align: center;
+        font-size: 7px;
+        color: white;
       }
