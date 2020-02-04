@@ -2,15 +2,17 @@ body {
     background-color: hsl(36, 37%, 80%);
     }
     h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgb(116, 61, 61);
     text-align: center;
     }
     h2 {
+    font-family: Arial, Helvetica, sans-serif, 'Times New Roman', Times, serif;
     color: rgb(46, 46, 46);
     text-align: center;
     }
     p {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif, 'Times New Roman', Times, serif;
     font-size: 15px;
     text-align: center;
     }
@@ -21,12 +23,26 @@ body {
     }
 
 
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
     header {
       background-color: hsl(36, 37%, 80%);
       padding: 30px;
       text-align: center;
       font-size: 15px;
-      color: white;
+      color: rgb(116, 61, 61);
     }
 
 
@@ -43,12 +59,12 @@ body {
         padding: 14px 16px;
         text-decoration: none;
         font-size: 18px;
-        font-family: 'Times New Roman', Times, serif;
+        font-family: Georgia, 'Times New Roman', Times, serif, Times, serif;
       }
       
       .navbar a:hover {
       background-color:hsl(36, 37%, 80%);
-      color: rgb(46, 46, 46);
+      color: rgb(116, 61, 61);
       }
       
       .navbar a.active {
@@ -86,3 +102,5 @@ body {
         font-size: 7px;
         color: white;
       }
+
+      
