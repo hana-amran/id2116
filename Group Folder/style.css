@@ -2,17 +2,17 @@ body {
     background-color: hsl(36, 37%, 80%);
     }
     h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, Times, serif;
     color: rgb(116, 61, 61);
     text-align: center;
     }
     h2 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, Times, serif;
     color: rgb(46, 46, 46);
     text-align: center;
     }
     p {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, Times, serif;
     font-size: 15px;
     text-align: center;
     }
