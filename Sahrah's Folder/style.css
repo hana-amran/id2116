@@ -52,15 +52,18 @@ h1 {
 
 .row {
   margin: 8px -16px;
+  border-radius: 10px;
 }
-.row,
+
 .row > .column {
   padding: 8px;
+  border-radius: 10px;
 }
 
 .column {
   float: left;
   width: 25%;
+  
 }
 
 .row:after {
