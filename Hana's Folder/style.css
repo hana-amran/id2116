@@ -1,4 +1,4 @@
-div {
+body {
     margin-top: 100px;
     margin-bottom: 100px;
     margin-right: 100px;
@@ -34,7 +34,7 @@ div {
     }
     
     body {
-      margin: 0;
+      margin: 12;
       font-family: Arial;
     }
     
@@ -44,7 +44,7 @@ div {
     }
     
     .column {
-      float: left;
+      float: center;
       width: 50%;
       padding: 10px;
     }
