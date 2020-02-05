@@ -12,7 +12,7 @@ div {
     width: 50%;
   }
 
-    h1{ 
+    h1 { 
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 25px;
     color: rgb(34, 34, 34);
@@ -43,39 +43,25 @@ div {
     margin-right: auto;
     }
 
-    body{
+    body {
     margin-top: 100px;
     margin-bottom: 100px;
     margin-right: 100px;
     margin-left: 100px;
     }
     
-    body{
+    body { 
         box-sizing: border-box;
       }
       
-      body {
-        margin: 0;
-        font-family: Arial;
-      }
-      
-      .row {
-        display: -ms-flexbox; 
-        display: flex;
-        -ms-flex-wrap: wrap; 
-        flex-wrap: wrap;
-        padding: 0 1px;
-      }
-    
       .column {
-        -ms-flex: 25%; 
-        flex: 25%;
-        max-width: 25%;
-        padding: 0 1px;
+        float: left;
+        width: 25%;
+        padding: 5px;
       }
-      
-      .column img {
-        margin-top: 8px;
-        vertical-align: middle;
-        width: 100%;
+
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
       }
