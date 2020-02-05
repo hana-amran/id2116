@@ -5,6 +5,8 @@ div {
     margin-left: 100px;
   }
 
+  
+
     h1{ 
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 25px;
@@ -40,24 +42,19 @@ div {
         font-family: Arial;
       }
       
-      .header {
-        text-align: center;
-        padding: 32px;
-      }
-      
       .row {
         display: -ms-flexbox; 
         display: flex;
         -ms-flex-wrap: wrap; 
         flex-wrap: wrap;
-        padding: 0 4px;
+        padding: 0 1px;
       }
     
       .column {
         -ms-flex: 25%; 
         flex: 25%;
         max-width: 25%;
-        padding: 0 4px;
+        padding: 0 1px;
       }
       
       .column img {
