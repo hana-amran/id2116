@@ -69,6 +69,7 @@ body {
     navbar {
         overflow: hidden;
         background-color:hsl(36, 37%, 80%);
+        text-align: center;
       }
       
       .navbar a {
