@@ -43,6 +43,12 @@ div {
     margin-right: auto;
     }
 
+    body{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+    }
     
     body{
         box-sizing: border-box;
