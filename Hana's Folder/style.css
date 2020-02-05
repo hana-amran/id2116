@@ -17,6 +17,8 @@ div {
     font-size: 25px;
     color: rgb(34, 34, 34);
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     }
     h2 {
         font-family: Georgia, 'Times New Roman', Times, serif;
@@ -29,12 +31,16 @@ div {
         text-align: center;
         font-family:  Georgia, 'Times New Roman', Times, serif;
         font-size: 15px;
+        margin-left: auto;
+        margin-right: auto;
         }
     p {
     color: rgb(100, 100, 100);
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
     }
 
     
