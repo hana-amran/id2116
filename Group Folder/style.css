@@ -12,6 +12,12 @@ p {
 
 }
 
+iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 body {
     background-color: hsl(36, 37%, 80%);
     }
