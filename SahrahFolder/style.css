@@ -1,12 +1,47 @@
 h1 {
-  font-size: 30px;
+  font-size: 25px;
+  color: #f2f2f2;
+  font-family:Arial, Helvetica, sans-serif ;
+  text-align: center;
+  font-weight: bold;
+}
+
+h2 {
+  font-family:Arial, Helvetica, sans-serif ;
+  font-size: 20px;
+  color: #f2f2f2;
+}
+
+h3 {
+  font-family:Arial, Helvetica, sans-serif ;
+  font-size: 15px;
+  color: #f2f2f2;
+  text-align: center;
+}
+
+
+h4 {
+  font-family:Arial, Helvetica, sans-serif ;
+  font-size: 15px;
+  color: #f2f2f2;
+  text-align: center;
+}
+
+h5 {
+  color: #f2f2f2;
   font-family:Arial, Helvetica, sans-serif ;
   text-align: center;
 }
- 
+
+img {
+  border-radius: 50%;
+  scale: 50%;
+text-align: center;
+}
+
 navbar {
   overflow: hidden;
-  background-color:pink;
+  background-color:#FFB5B5;
 }
 
 .navbar a {
@@ -21,12 +56,12 @@ navbar {
 }
 
 .navbar a:hover {
-background-color:pink;
+background-color:#FFB5B5;
 color: rgb(46, 46, 46);
 }
 
 .navbar a.active {
-background-color:pink;
+background-color:#FFB5B5;
 color: #F5E9E7;
 }
 
@@ -35,7 +70,7 @@ color: #F5E9E7;
 }
 
 body {
-  background-color: pink;
+  background-color: #FFB5B5;
   padding: 20px;
   font-family: Arial;
 }
@@ -73,7 +108,7 @@ h1 {
 }
 
 .content {
-  background-color: pink;
+  background-color:#FFB5B5;
   padding: 10px;
 }
 
