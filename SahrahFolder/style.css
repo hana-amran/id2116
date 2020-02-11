@@ -10,6 +10,7 @@ h2 {
   font-family:Arial, Helvetica, sans-serif ;
   font-size: 20px;
   color: #f2f2f2;
+  text-align: center;
 }
 
 h3 {
@@ -36,7 +37,14 @@ h5 {
 img {
   border-radius: 50%;
   scale: 50%;
-text-align: center;
+  item-align: center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 navbar {
