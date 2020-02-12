@@ -86,7 +86,7 @@ body {
     }
 
     .column {
-      float: left;
+      float: center;
       width: 25%;
       padding: 5px;
     }
