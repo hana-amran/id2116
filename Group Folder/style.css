@@ -86,9 +86,9 @@ body {
     }
 
     .column {
-      float: center;
-      width: 25%;
-      padding: 5px;
+      float: left;
+      width: 33.33%;
+      padding: 2px;
     }
     
     .row::after {
