@@ -17,6 +17,18 @@ p {
   width: 20%;
 }
 
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 2px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 .image {
   opacity: 1;
   display: block;
