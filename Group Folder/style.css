@@ -9,7 +9,6 @@ p {
   margin-bottom: 30px;
   margin-right: 350px;
   margin-left: 350px;
-
 }
 
 .container {
@@ -44,7 +43,6 @@ p {
 .container:hover .middle {
   opacity: 1;
 }
-
 
 
 .text {
