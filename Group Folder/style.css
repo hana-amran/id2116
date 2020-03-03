@@ -21,7 +21,7 @@ p {
 .image {
   opacity: 1;
   display: block;
-  width: 100%;
+  width: 90%;
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
@@ -47,7 +47,6 @@ p {
 }
 
 .text {
-  background-color: rgb(255, 255, 255);
   color: rgb(148, 79, 79);
   font-size: 16px;
   padding: 10px 10px;
